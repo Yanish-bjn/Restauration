@@ -237,52 +237,50 @@
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Top Products
+                                    Acces :
                             </h3>
                             <ul>
-                                <li><a href="#">Managed Website</a></li>
-                                <li><a href="#"> Manage Reputation</a></li>
-                                <li><a href="#">Power Tools</a></li>
-                                <li><a href="#">Marketing Service</a></li>
+                                <li><a>Metro 8 :École Militaire</a></li>
+                                <li><a>Bus: 69, 87, 82, 92, 28 ou 80</a></li>
+                                <li><a>Velib : Station 7103, 2 rue de belgrade</a></li>
+                                <li><a>Velib : Station 15105, 84 rue de la federation</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Quick Links
+                                    Besoin de quelque chose ?
                             </h3>
                             <ul>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Brand Assets</a></li>
-                                <li><a href="#"> Investor Relations</a></li>
-                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="Contact.php">Nous contacter ?</a></li>
+                                <li><a href="Reservation.php">Passer commande ?</a></li>
+                                <li><a href="connexion.php">Se connecter ?</a></li>
+                                <li><a href="Contact.php">Venir nous rencontrer ?</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Features
+                                    A venir bientot !
                             </h3>
                             <ul>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Brand Assets</a></li>
-                                <li><a href="#">Investor Relations</a></li>
-                                <li><a href="#">Terms of Service</a></li>
+                                <li><a>Jobs</a></li>
+                                <li><a>Candidature spontané</a></li>
+                                <li><a>Relation profesionneles</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Resources
+                                    Notre image !
                             </h3>
                             <ul>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Research</a></li>
-                                <li><a href="#">Experts</a></li>
-                                <li><a href="#">Agencies</a></li>
+                                <li><a href="index.php">Nos plats speciaux</a></li>
+                                <li><a href="gallery.php">Nos meilleur plats</a></li>
+                                <li><a href="blog.php">Notre blog</a></li>
                             </ul>
                         </div>
                     </div>
@@ -291,9 +289,8 @@
                             <h3 class="heading">
                                     Newsletter
                             </h3>
-                            <p class="offer_text" >You can trust us. we only send promo offers,</p>
-                            <form action="#">
-                                <input type="text" placeholder="Your email address">
+                            <form method="POST" action="news.php">
+                                <input type="text" name="email" placeholder="Votre email" method="POST" >
                                 <button type="submit"> <i class="ti-arrow-right"></i> </button>
                             </form>
                         </div>
@@ -307,17 +304,17 @@
                     <div class="col-xl-7 col-md-12 col-lg-8">
                         <div class="copyright">
                                 <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-12 col-lg-4">
                         <div class="social_links">
                             <ul>
-                                <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                                <li><a href="#"> <i class="fa fa-dribbble"></i> </a></li>
-                                <li><a href="#"> <i class="fa fa-behance"></i> </a></li>
+                                <li><a href="https://fr-fr.facebook.com/"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a href="https://twitter.com/?lang=fr"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a href="https://dribbble.com/"> <i class="fa fa-dribbble"></i> </a></li>
+                                <li><a href="https://www.behance.net/"> <i class="fa fa-behance"></i> </a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,15 +1,15 @@
 <?php
 class reservation {
   private $_nom;
-  private $_telephone;
+  private $_email;
   private $_heure;
   private $_menu;
   private $_personne;
 
-  public function __construct($nom, $telephone, $heure, $menu, $personne){
+  public function __construct($nom, $email, $heure, $menu, $personne){
 
       $this->setNom($nom);
-      $this->settelephone($telephone);
+      $this->settelephone($email);
       $this->setheure($heure);
       $this->setmenu($menu);
       $this->setpersonne($personne);
@@ -17,17 +17,17 @@ class reservation {
 
 public function setnom($nom){
   if(empty($nom)){
-    trigger_error('la variable doit etre un caractere'); 
+    trigger_error('la variable doit etre un caractere');
     return;
   }
   $this->_nom = $nom;
 }
-public function settelephone($telephone){
-  if(empty($telephone)){
+public function settelephone($email){
+  if(empty($email)){
     trigger_error('la variable doit etre un caractere');
     return;
   }
-  $this->_telephone = $telephone;
+  $this->_email = $email;
 }
 public function setheure($heure){
   if(empty($heure)){
@@ -54,8 +54,8 @@ public function setpersonne($personne){
 public function getnom(){
   return $this->_nom;
 }
-public function gettelephone(){
-  return $this->_telephone;
+public function getemail(){
+  return $this->_email;
 }
 public function getheure(){
   return $this->_heure;

@@ -30,8 +30,8 @@
                             <label for="name" class="form-label">Votre nom</label>
                         </div>
                         <div class="form-group form-input">
-                            <input type="tel" name="telephone" id="phone" value="" required />
-                            <label for="phone" class="form-label">Numero de telephone</label>
+                            <input type="text" name="email" id="phone" value="" required />
+                            <label for="email" class="form-label">Votre email</label>
                         </div>
                         <div class="form-group">
                             <div class="select-list">
