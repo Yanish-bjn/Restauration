@@ -109,121 +109,38 @@
  </div>
  <!-- breadcam_area_end -->
 
- <div class="limiter">
-   <div class="container-table100">
-     <div class="wrap-table100">
-
-
-       <div class="table100 ver2 m-b-110">
-         <table data-vertable="ver2">
-           <thead>
-             <tr class="row100 head">
-               <th class="column100 column1" data-column="column1"></th>
-               <th class="column100 column2" data-column="column2">Lundi</th>
-               <th class="column100 column3" data-column="column3">Mardi</th>
-               <th class="column100 column4" data-column="column4">Mercredi</th>
-               <th class="column100 column5" data-column="column5">Jeudi</th>
-               <th class="column100 column6" data-column="column6">Vendredi</th>
-               <th class="column100 column7" data-column="column7">Samedi</th>
-               <th class="column100 column8" data-column="column8">Dimanche</th>
+       <table class="table">
+          <thead>
+             <tr>
+               <th>id</th>
+                <th>nom</th>
+                <th>telephone</th>
+                <th>heure</th>
+                <th>menu</th>
+                <th>personne</th>
              </tr>
-           </thead>
-           <tbody>
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Lawrence Scott</td>
-               <td class="column100 column2" data-column="column2">8:00-16h</td>
-               <td class="column100 column3" data-column="column3">--</td>
-               <td class="column100 column4" data-column="column4">--</td>
-               <td class="column100 column5" data-column="column5">8:00 AM</td>
-               <td class="column100 column6" data-column="column6">--</td>
-               <td class="column100 column7" data-column="column7">5:00 PM</td>
-               <td class="column100 column8" data-column="column8">8:00 AM</td>
-             </tr>
+          </thead>
+          <tbody>
+     <?php
+     $bdd = new PDO('mysql:host=localhost;dbname=restauration;charset=utf8', 'root', '');
 
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Jane Medina</td>
-               <td class="column100 column2" data-column="column2">--</td>
-               <td class="column100 column3" data-column="column3">5:00 PM</td>
-               <td class="column100 column4" data-column="column4">5:00 PM</td>
-               <td class="column100 column5" data-column="column5">--</td>
-               <td class="column100 column6" data-column="column6">9:00 AM</td>
-               <td class="column100 column7" data-column="column7">--</td>
-               <td class="column100 column8" data-column="column8">--</td>
-             </tr>
+     $req = $bdd->query('SELECT * from reservation');
+     $donne = $req->fetchall();
 
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Billy Mitchell</td>
-               <td class="column100 column2" data-column="column2">9:00 AM</td>
-               <td class="column100 column3" data-column="column3">--</td>
-               <td class="column100 column4" data-column="column4">--</td>
-               <td class="column100 column5" data-column="column5">--</td>
-               <td class="column100 column6" data-column="column6">--</td>
-               <td class="column100 column7" data-column="column7">2:00 PM</td>
-               <td class="column100 column8" data-column="column8">8:00 AM</td>
-             </tr>
-
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Beverly Reid</td>
-               <td class="column100 column2" data-column="column2">--</td>
-               <td class="column100 column3" data-column="column3">5:00 PM</td>
-               <td class="column100 column4" data-column="column4">5:00 PM</td>
-               <td class="column100 column5" data-column="column5">--</td>
-               <td class="column100 column6" data-column="column6">9:00 AM</td>
-               <td class="column100 column7" data-column="column7">--</td>
-               <td class="column100 column8" data-column="column8">--</td>
-             </tr>
-
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Tiffany Wade</td>
-               <td class="column100 column2" data-column="column2">8:00 AM</td>
-               <td class="column100 column3" data-column="column3">--</td>
-               <td class="column100 column4" data-column="column4">--</td>
-               <td class="column100 column5" data-column="column5">8:00 AM</td>
-               <td class="column100 column6" data-column="column6">--</td>
-               <td class="column100 column7" data-column="column7">5:00 PM</td>
-               <td class="column100 column8" data-column="column8">8:00 AM</td>
-             </tr>
-
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Sean Adams</td>
-               <td class="column100 column2" data-column="column2">--</td>
-               <td class="column100 column3" data-column="column3">5:00 PM</td>
-               <td class="column100 column4" data-column="column4">5:00 PM</td>
-               <td class="column100 column5" data-column="column5">--</td>
-               <td class="column100 column6" data-column="column6">9:00 AM</td>
-               <td class="column100 column7" data-column="column7">--</td>
-               <td class="column100 column8" data-column="column8">--</td>
-             </tr>
-
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Rachel Simpson</td>
-               <td class="column100 column2" data-column="column2">9:00 AM</td>
-               <td class="column100 column3" data-column="column3">--</td>
-               <td class="column100 column4" data-column="column4">--</td>
-               <td class="column100 column5" data-column="column5">--</td>
-               <td class="column100 column6" data-column="column6">--</td>
-               <td class="column100 column7" data-column="column7">2:00 PM</td>
-               <td class="column100 column8" data-column="column8">8:00 AM</td>
-             </tr>
-
-             <tr class="row100">
-               <td class="column100 column1" data-column="column1">Mark Salazar</td>
-               <td class="column100 column2" data-column="column2">8:00 AM</td>
-               <td class="column100 column3" data-column="column3">--</td>
-               <td class="column100 column4" data-column="column4">--</td>
-               <td class="column100 column5" data-column="column5">8:00 AM</td>
-               <td class="column100 column6" data-column="column6">--</td>
-               <td class="column100 column7" data-column="column7">5:00 PM</td>
-               <td class="column100 column8" data-column="column8">8:00 AM</td>
-             </tr>
-           </tbody>
-         </table>
-       </div>
-
-       </div>
-     </div>
-   </div>
-
+     foreach($donne as $value){
+     echo '<tr>';
+     echo '<td>'.$value['id'].'</td>';
+     echo '<td>'.$value['nom'].'</td>';
+       echo '<td>'.$value['telephone'].'</td>';
+         echo '<td>'.$value['heure'].'</td>';
+           echo '<td>'.$value['menu'].'</td>';
+             echo '<td>'.$value['personne'].'</td>';
+               ?>
+     <?php echo '</tr>';
+     }
+      ?>
+ </table>
+ 
     <!-- ================ contact section start ================= -->
     <section class="contact-section">
             <div class="container">
@@ -298,16 +215,16 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-12 col-lg-4">
-                        <div class="footer_widget">
-                            <h3 class="heading">
-                                    Newsletter
-                            </h3>
-                            <p class="offer_text" >You can trust us. we only send promo offers,</p>
-                            <form action="#">
-                                <input type="text" placeholder="Your email address">
-                                <button type="submit"> <i class="ti-arrow-right"></i> </button>
-                            </form>
-                        </div>
+                      <div class="col-xl-4 col-md-12 col-lg-4">
+                          <div class="footer_widget">
+                              <h3 class="heading">
+                                      Newsletter
+                              </h3>
+                              <form method="POST" action="news.php">
+                                  <input type="text" name="email" placeholder="Votre email" method="POST" >
+                                  <button type="submit"> <i class="ti-arrow-right"></i> </button>
+                              </form>
+                          </div>
                     </div>
                 </div>
             </div>

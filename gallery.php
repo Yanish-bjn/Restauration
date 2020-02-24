@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Page Title -->
-    <title>About</title>
+    <title>Gallery</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/x-icon">
@@ -54,11 +54,7 @@
                                                   <img src="img/logo.png" alt="">
                                               </a>
                                           </div>
-                                      <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                          <ul class="submenu">
-                                              <li><a href="blog.php">blog</a></li>
-                                              <li><a href="admin.php">single-blog</a></li>
-                                          </ul>
+                                      <li><a href="blog.php">blog</a>
                                       </li>
                                       <li><a href="contact.php">Contact</a></li>
                                   </ul>
@@ -130,7 +126,7 @@
                         <h3><span class="style-change">Bienvenue</span> <br>Steak house shop</h3>
                         <p class="pt-3">Chez nous, on prend soin de vous </p>
                         <p>Avec nos produit 100% local Français, </p>
-                        <a href="reservation.php" class="template-btn3 mt-">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                        <a href="reservation.php" class="template-btn3 mt-">Reserver une table <span><i class="fa fa-long-arrow-right"></i></span></a>
 
                     </div>
                 </div>
@@ -157,7 +153,7 @@
                         <h3><span>Saveur</span><br> du Japon</h3>
                         <p class="pt-3">Notre menu japonais avec 5 varienté de Sushi ou maki au choix avec en plus 10 brochettes de boeuf ou poulet fried et pour finir des raviolis aux crevettes, poulet ou légumes cuit a la vapeur.</p>
                         <span class="style-change">20.00€</span>
-                        <a href="reservation.php" class="template-btn3 mt-">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                        <a href="reservation.php" class="template-btn3 mt-">Reserver une table <span><i class="fa fa-long-arrow-right"></i></span></a>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
@@ -174,7 +170,7 @@
                         <h3><span>Poulet</span><br> braisé aux milles epices</h3>
                         <p class="pt-3">Notre poulet braisé cuit aux bois de hêtre et assaisonée de différentes epices tel que l'aneth, la canelle ou encore du girofle avec sa sauce aigre doux et c'est pomme de terre sauté. Acompagné de riz parfumé aux lotus.</p>
                         <span class="style-change">15.00€</span>
-                        <a href="reservation.php" class="template-btn3 mt-">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                        <a href="reservation.php" class="template-btn3 mt-">Reserver une table <span><i class="fa fa-long-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>flatter</title>
+    <title>Blog</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,11 +50,7 @@
                                                         <img src="img/logo.png" alt="">
                                                     </a>
                                                 </div>
-                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">blog</a></li>
-                                                    <li><a href="admin.php">single-blog</a></li>
-                                                </ul>
+                                            <li><a href="blog.php">blog</a>
                                             </li>
                                             <li><a href="contact.php">Contact</a></li>
                                         </ul>
@@ -102,8 +98,8 @@
     <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
             <div class="breadcam_inner">
                 <div class="breadcam_text">
-                    <h3>About Us</h3>
-                    <p>inappropriate behavior is often laughed off as “boys will be boys,” women <br> face higher conduct standards especially in the workplace. That’s why it’s <br> crucial that, as women.</p>
+                    <h3>Notre blog</h3>
+                    <p>Bienvenue sur notre blog <br> Ici vous pourez visioner nos differants plats !</p>
                 </div>
             </div>
     </div>
@@ -115,16 +111,15 @@
             <div class="row align-items-center">
                 <div class="col-xl-5 col-lg-5">
                     <div class="single_about_text">
-                        <h3>Daily Food <br>
-                            Courses <br>
-                            with Drinks </h3>
+                        <h3>Notre<br>
+                            Blog <br></h3>
                             <p class="about_text1">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Pour ce mois, nous vous présentons une video sur la finition d'un de nos plats par notre chef cuisiner.
                             </p>
                             <p class="about_text2">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                                Chaque mois, une nouvelle video sera présente sur le site ainsi que sur notre chaine youtube, venez vite !
                             </p>
-                            <a href="#" class="boxed_btn">View Menu</a>
+                            <a href="#" class="boxed_btn">Acceuil</a>
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
@@ -146,8 +141,8 @@
                         <div class="video_text">
                             <div class="info">
                                 <div class="info_inner">
-                                        <h4>Watch Video</h4>
-                                        <p>You will love our execution</p>
+                                        <h4>Regarder la video</h4>
+                                        <p>Vous allez adorer !</p>
                                 </div>
                                 <div class="icon_video">
                                     <a class="popup-video" href="https://www.youtube.com/watch?v=0mmAHrAH7Ws"><i class="ti-control-play"></i></a>
@@ -160,36 +155,6 @@
         </div>
     </div>
     <!-- video_area_end -->
-
-    <!-- single_about_area_start -->
-    <div class="single_about_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="single_about_thumb thumb_n2">
-                        <img src="img/about/2.png" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
-                    <div class="single_about_text">
-                        <h3>Daily Food <br>
-                            Courses <br>
-                            with Drinks </h3>
-                            <p class="about_text1">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                            <p class="about_text2">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                            </p>
-                            <a href="#" class="boxed_btn">View Menu</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- single_about_area_end -->
-
-
 
     <!-- footer-start -->
     <footer class="footer_area footer-bg zigzag_bg_1">

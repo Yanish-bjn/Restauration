@@ -51,11 +51,7 @@
                                                     <img src="img/logo.png" alt="">
                                                 </a>
                                             </div>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.php">blog</a></li>
-                                                <li><a href="admin.php">single-blog</a></li>
-                                            </ul>
+                                        <li><a href="blog.php">blog</a>
                                         </li>
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
@@ -297,9 +293,8 @@
                             <h3 class="heading">
                                     Newsletter
                             </h3>
-                            <p class="offer_text" >You can trust us. we only send promo offers,</p>
-                            <form action="#">
-                                <input type="text" placeholder="Your email address">
+                            <form method="POST" action="news.php">
+                                <input type="text" name="email" placeholder="Votre email" method="POST" >
                                 <button type="submit"> <i class="ti-arrow-right"></i> </button>
                             </form>
                         </div>

@@ -104,6 +104,44 @@
  </div>
  <!-- breadcam_area_end -->
 
+
+ <table class="table">
+    <thead>
+       <tr>
+         <th>id</th>
+          <th>nom</th>
+          <th>telephone</th>
+          <th>heure</th>
+          <th>menu</th>
+          <th>personne</th>
+       </tr>
+    </thead>
+    <tbody>
+<?php
+$bdd = new PDO('mysql:host=localhost;dbname=restauration;charset=utf8', 'root', '');
+
+$req = $bdd->prepare('SELECT * from reservation where email=:email');
+$req->execute(array(
+  'email'=>$_SESSION['email']
+));
+$donne = $req->fetchall();
+
+foreach($donne as $value){
+echo '<tr>';
+echo '<td>'.$value['id'].'</td>';
+echo '<td>'.$value['nom'].'</td>';
+ echo '<td>'.$value['telephone'].'</td>';
+   echo '<td>'.$value['heure'].'</td>';
+     echo '<td>'.$value['menu'].'</td>';
+       echo '<td>'.$value['personne'].'</td>';
+         ?>
+<?php echo '</tr>';
+}
+?>
+</table>
+
+
+
     <!-- ================ contact section start ================= -->
     <section class="contact-section">
             <div class="container">
@@ -116,19 +154,6 @@
                 </div>
            </div>
     </section>
-
-        <section class="contact-section">
-                <div class="container">
-                    <div class="d-none d-sm-block mb-5 pb-4">
-
-                      <form action="modification.php" method="POST">
-                      <center><input type="submit" class="button button-contactForm boxed-btn" value='Modifier'></center>
-                      </form>
-
-                    </div>
-               </div>
-        </section>
-
     <!-- ================ contact section end ================= -->
 
 

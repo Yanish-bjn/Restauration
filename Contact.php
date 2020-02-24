@@ -50,10 +50,8 @@
                                                         <img src="img/logo.png" alt="">
                                                     </a>
                                                 </div>
-                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <li><a href="blog.php">blog</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.php">blog</a></li>
-                                                    <li><a href="admin.php">single-blog</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="contact.php">Contact</a></li>
