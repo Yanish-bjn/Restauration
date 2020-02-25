@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- <logo> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <!-- fin -->
 
-    <!-- CSS here -->
+    <!-- liens pour le style du templates-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Style pour la carte -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    <!-- fin-->
     <style type="text/css">
            #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
                height:400px;
@@ -38,7 +40,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- header-start -->
+        <!-- code pour la Nav-bar -->
         <header>
             <div class="header-area ">
                 <div id="sticky-header" class="main-header-area">
@@ -98,9 +100,9 @@
                 </div>
             </div>
         </header>
-        <!-- header-end -->
+        <!-- fin de la nav bar -->
 
- <!-- breadcam_area_start -->
+ <!-- Code permettant de mettre en place du texte sur l'image de la nav bar -->
  <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
     <div class="breadcam_inner">
        <div class="breadcam_text">
@@ -109,9 +111,9 @@
        </div>
     </div>
  </div>
- <!-- breadcam_area_end -->
+ <!-- fin -->
 
-    <!-- ================ contact section start ================= -->
+    <!-- ================ Debut de la carte ================= -->
     <section class="contact-section">
 
             <div class="container">
@@ -145,6 +147,7 @@
     var marker = L.marker([48.8561, 2.2980]).addTo(macarte);
             };
         </script>
+        <!-- Début du formulaire de contact -->
                 </div>
                 <form action='manager_contact.php' method='POST'>
                 <div class="row">
@@ -181,6 +184,9 @@
                             </div>
                         </form>
                     </div>
+                    <!-- Fin du formulaire -->
+
+                    <!-- Code permettant de mettre en place les coordonnées du restaurant -->
                     <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
@@ -208,9 +214,9 @@
             </div>
         </section>
       </form>
-    <!-- ================ contact section end ================= -->
+    <!-- fin -->
 
-    <!-- footer-start -->
+    <!-- début du footer -->
     <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
@@ -303,9 +309,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer-end -->
+    <!-- fin du flooter  -->
 
-        <!-- JS here -->
+        <!-- liens pour le JS -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -324,7 +330,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
 
-        <!--contact js-->
+
         <script src="js/contact.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/jquery.form.js"></script>
@@ -332,6 +338,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/mail-script.js"></script>
 
         <script src="js/main.js"></script>
+        <!-- fin -->
 
     </body>
 

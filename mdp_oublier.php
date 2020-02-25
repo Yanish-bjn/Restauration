@@ -22,7 +22,7 @@
                 <div class="signup-content">
                     <div class="signup-form">
                         <h2 class="form-title">Mot de passe oublié</h2>
-                        <form method="POST" action="manager_mdp.php" class="register-form" id="register-form">
+                        <form method="POST" action="traitement_mot_de_passe_oublie.php" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
                                 <input type="email" name="email" id="email" placeholder="Votre email"/>
@@ -34,7 +34,6 @@
                     </div>
                     <div class="signup-image">
                         <figure><img src="Inscription/images/mdp.jpg" alt="sing up image"></figure>
-                        <a href="connexion.php" class="signup-image-link">Deja membre</a>
                     </div>
                 </div>
             </div>

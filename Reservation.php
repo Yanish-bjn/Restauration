@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reservation</title>
 
-    <!-- Font Icon -->
+    <!-- logo -->
     <link rel="stylesheet" href="Reservation/fonts/material-icon/css/material-design-iconic-font.min.css">
 
-    <!-- Main css -->
+    <!-- Liens pour le css -->
     <link rel="stylesheet" href="Reservation/css/style.css">
     <link rel="stylesheet" href="Reservation\scss\common\global.scss"
 </head>
 <body>
 
     <div class="main">
-
+  <!-- Début du formulaire -->
         <div class="container">
             <div class="booking-content">
                 <div class="booking-image">
@@ -76,9 +76,9 @@
                                 </span>
                             </div>
                         </div>
-
+                          <!--Fin du formulaire -->
                         <div class="form-submit">
-                            <input type="submit" value="Reserver" class="submit" id="submit" />
+                            <input type="submit" value="Reserver" class="submit" id="submit" />   <!-- Bouton permettant d'envoyer les données -->
                             <a href="#" class="vertify-booking">Verfier votre reservation sur votre telephone</a>
                         </div>
                     </form>
@@ -88,8 +88,9 @@
 
     </div>
 
-    <!-- JS -->
+    <!-- Liens JS -->
     <script src="Reservation/vendor/jquery/jquery.min.js"></script>
     <script src="Reservation/js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+      <!--fin-->
+</body>
 </html>

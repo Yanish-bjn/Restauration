@@ -1,15 +1,15 @@
 <?php
-
+//utilisation des services suiavnt //
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
+//Récuperation des données sur les pages suivantes //
 require 'vendor/phpmailer/phpmailer/src/Exception.php';
 require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 require 'vendor/autoload.php';
 //
  $email=$_POST['email'];
-
+//Verifie la présence de l'adresse mail pour par la suite envoyer le mail //
  $bdd=new PDO('mysql:host=localhost;dbname=restauration;charset=utf8', 'root', '');
     $req=$bdd->prepare('SELECT * from inscription where email = :email');
     $req->execute(array('email'=>$email));

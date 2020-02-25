@@ -1,20 +1,20 @@
 <?php
-
+// utilisation de service //
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
+//Recuperation de données des page suivantes //
 require 'vendor/phpmailer/phpmailer/src/Exception.php';
 require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 require 'vendor/autoload.php';
 //
 
-
+// envoie les données vers les page suiavntes //
 require 'model_contact.php';
 require 'traitement_contact.php';
 class Manager{
 public function contact($donnee){
-
+//Enregistre les données dans la BDD et rédireige en fonction du résultat //
       $bdd=new PDO('mysql:host=localhost;dbname=restauration;charset=utf8', 'root', '');
     $req=$bdd->prepare('INSERT into contact (nom, email, sujet, message) VALUES(:nom, :email, :sujet, :message)');
     $req->execute(array('nom'=>$donnee->getnom(), 'email'=>$donnee->getemail(), 'sujet'=>$donnee->getsujet(), 'message'=>$donnee->getmessage()));

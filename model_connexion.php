@@ -1,5 +1,5 @@
 <?php
-class connexion {
+class connexion { // classe connexion reprenant les information du manager, formulaire, model//
   private $_email;
   private $_mdp;
   private $_role;
@@ -12,23 +12,23 @@ class connexion {
 }
 
 public function setemail($email){
-  if(empty($email)){
+  if(empty($email)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_email = $email;
 }
 public function setmdp($mdp){
-  if(empty($mdp)){
+  if(empty($mdp)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_mdp = $mdp;
 }
 public function setrole($role){
-  if(empty($role)){
+  if(empty($role)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_role = $role;
 }

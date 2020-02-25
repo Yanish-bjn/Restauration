@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
-    <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+
+
+    <!-- Liens vers le  style des templates -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
 </head>
 
 <body>
@@ -32,7 +32,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- header-start -->
+        <!-- debut de la nav-bar -->
         <header>
             <div class="header-area ">
                 <div id="sticky-header" class="main-header-area">
@@ -92,9 +92,9 @@
                 </div>
             </div>
         </header>
-        <!-- header-end -->
+        <!-- fin de la nav-bar -->
 
-    <!-- breadcam_area_start -->
+    <!-- Mise en place d'un texte sur l'image en bas de la nav-bar -->
     <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
             <div class="breadcam_inner">
                 <div class="breadcam_text">
@@ -103,9 +103,9 @@
                 </div>
             </div>
     </div>
-    <!-- breadcam_area_end -->
+    <!-- fin de la mise en place d'un texte sur l'image en bas de la nav-bar -->
 
-    <!-- single_about_area_start -->
+    <!-- Présentation de la page blog -->
     <div class="single_about_area">
         <div class="container">
             <div class="row align-items-center">
@@ -119,7 +119,7 @@
                             <p class="about_text2">
                                 Chaque mois, une nouvelle video sera présente sur le site ainsi que sur notre chaine youtube, venez vite !
                             </p>
-                            <a href="#" class="boxed_btn">Acceuil</a>
+                            <a href="index.php" class="boxed_btn">Acceuil</a>
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
@@ -130,9 +130,9 @@
             </div>
         </div>
     </div>
-    <!-- single_about_area_end -->
+    <!-- Fin de la Présentation de la page blog -->
 
-    <!-- video_area_start -->
+    <!-- debut de la prtie permettant de voir une video -->
     <div class="video_area video_bg zigzag_bg_2 zigzag_bg_1">
         <div class="video_area_inner">
             <div class="container">
@@ -154,9 +154,9 @@
             </div>
         </div>
     </div>
-    <!-- video_area_end -->
+    <!-- fin de la partie permettant de voir une video -->
 
-    <!-- footer-start -->
+    <!-- Debut du Pied de page flotter -->
     <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
@@ -249,10 +249,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer-end -->
+    <!-- Fin du pied de page flotter -->
 
 
-    <!-- JS here -->
+    <!-- liens pour le js -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -270,8 +270,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
-
-    <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
@@ -279,7 +277,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
-
+    <!-- fin-->
 </body>
 
 </html>

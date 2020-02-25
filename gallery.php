@@ -2,27 +2,24 @@
 <?php session_start(); ?>
 <html lang="en">
 <head>
-    <!-- Required Meta Tags -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Page Title -->
+    <!--Titre-->
     <title>Gallery</title>
 
-    <!-- Favicon -->
+    <!-- logo -->
     <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/x-icon">
 
-    <!-- CSS deuxieme template -->
+    <!-- Début du style -->
     <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
     <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css">
     <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
     <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
 <link rel="stylesheet" href="assets/css/style2.css">
-
-
-    <!-- CSS premier template -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -33,10 +30,11 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fin du style-->
 </head>
 <body>
 
-  <!-- header-start -->
+  <!-- Début de la nav-bar -->
   <header>
       <div class="header-area ">
           <div id="sticky-header" class="main-header-area">
@@ -96,10 +94,10 @@
           </div>
       </div>
   </header>
-  <!-- header-end -->
+  <!-- fin -->
 
 
-  <!-- breadcam_area_start -->
+<!-- Code permettat de mettre en place du texte sur l'image de la nav-bar -->
   <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
       <div class="breadcam_inner">
           <div class="breadcam_text">
@@ -108,11 +106,11 @@
           </div>
       </div>
   </div>
-  <!-- breadcam_area_end -->
+  <!-- fin -->
 
 
 
-    <!-- Welcome Area Starts -->
+    <!-- Code permettant la présentation de la page galerie -->
     <section class="welcome-area section-padding2">
         <div class="container-fluid">
             <div class="row">
@@ -133,9 +131,9 @@
             </div>
         </div>
     </section>
-    <!-- Welcome Area End -->
+    <!-- Fin -->
 
-    <!-- Deshes Area Starts -->
+    <!-- Code permettant de réaliser un classement des plats speciaux -->
     <div class="deshes-area section-padding">
         <div class="container">
             <div class="row">
@@ -176,9 +174,9 @@
             </div>
         </div>
     </div>
-    <!-- Deshes Area End -->
+    <!-- fin  -->
 
-    <!-- Testimonial Area Starts -->
+    <!-- Code permettant de présenter différents avis  -->
   <p><section class="testimonial-area section-padding4">
         <div class="container">
             <div class="row">
@@ -227,9 +225,9 @@
             </div>
         </div>
     </section></p>
-    <!-- Testimonial Area End -->
+    <!-- fin des avis  -->
 
-    <!-- footer-start -->
+    <!-- debut du footer -->
     <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
@@ -322,12 +320,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer-end -->
+    <!-- fin du footer -->
 
 
 
 
-    <!-- Javascript -->
+      <!-- Début du JS -->
     <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
     <script src="assets/js/vendor/wow.min.js"></script>
@@ -337,7 +335,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="assets/js/main.js"></script>
 
 
-    <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -356,7 +353,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
 
-    <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
@@ -364,6 +360,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
-
+    <!-- fin du js-->
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-class contact {
+class contact { // classe contact reprenant les information du manager, formulaire, model//
   private $_nom;
   private $_email;
   private $_sujet;
@@ -14,30 +14,30 @@ class contact {
 }
 
 public function setnom($nom){
-  if(empty($nom)){
+  if(empty($nom)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_nom = $nom;
 }
 public function setemail($email){
-  if(empty($email)){
+  if(empty($email)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_email = $email;
 }
 public function setsujet($sujet){
-  if(empty($sujet)){
+  if(empty($sujet)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_sujet = $sujet;
 }
 public function setmessage($message){
-  if(empty($message)){
+  if(empty($message)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_message = $message;
 }

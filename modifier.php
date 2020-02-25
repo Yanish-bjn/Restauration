@@ -16,7 +16,7 @@
 
     <div class="main">
 
-        <!-- Sign up form -->
+        <!-- Début du Formulaire  -->
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
@@ -45,17 +45,18 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="Inscription/images/modifier.png" alt="sing up image"></figure>
-                        <a href="moncompte.php" class="signup-image-link">Annuler</a>
+                        <figure><img src="Inscription/images/modifier.png" alt="sing up image"></figure>   <!-- Bouton permettant d'envoyer les données -->
+                        <a href="moncompte.php" class="signup-image-link">Annuler</a>   <!-- Bouton permettent d'être rediriger vers la page mon compte -->
                     </div>
                 </div>
             </div>
         </section>
-
+        <!--Fin du formulaire -->
     </div>
 
-    <!-- JS -->
+    <!-- Liens du JS -->
     <script src="Inscription/vendor/jquery/jquery.min.js"></script>
     <script src="Inscription/js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+      <!-- fin -->
+</body>
 </html>

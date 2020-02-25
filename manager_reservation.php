@@ -24,9 +24,8 @@ public function reservation($donnee){
     }
 
           }
-
-          public function Mail($donnee){
-          $mail = new PHPMailer();
+public function Mail($donnee){
+          $mail = new PHPMailer(true);
           $mail->isSMTP();                                            // Send using SMTP
           $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
           $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -46,4 +45,5 @@ public function reservation($donnee){
           }
 }
 }
+
 ?>

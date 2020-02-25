@@ -1,5 +1,5 @@
 <?php
-class inscription {
+class inscription { // Casse inscription provenant du model et du manager //
   private $_nom;
   private $_email;
   private $_mdp;
@@ -15,33 +15,33 @@ class inscription {
 }
 
   public function setnom($nom){
-    if(empty($nom)){
+    if(empty($nom)){ // si la valeur saisie est vide afficher une erreur //
       trigger_error('la variable doit etre un caractere');
-      return;
+      return; // retourne le résultat //
     }
     $this->_nom = $nom;
   }
 
   public function setemail($email){
-    if(empty($email)){
+    if(empty($email)){ // si la valeur saisie est vide afficher une erreur //
       trigger_error('la variable doit etre un caractere');
-      return;
+      return; // retourne le résultat //
     }
     $this->_email = $email;
   }
 
   public function setmdp($mdp){
-    if(empty($mdp)){
+    if(empty($mdp)){ // si la valeur saisie est vide afficher une erreur //
       trigger_error('la variable doit etre un caractere');
-      return;
+      return; // retourne le résultat //
     }
     $this->_mdp = $mdp;
   }
 
   public function settelephone($telephone){
-    if(empty($telephone)){
+    if(empty($telephone)){ // si la valeur saisie est vide afficher une erreur //
       trigger_error('la variable doit etre un caractere');
-      return;
+      return; // retourne le résultat //
     }
     $this->_telephone = $telephone;
   }

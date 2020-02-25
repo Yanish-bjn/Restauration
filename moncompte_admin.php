@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- logo"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <!-- fin -->
 
-    <!-- CSS here -->
+    <!-- Liens pour le style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -24,12 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-
-
     <link rel="stylesheet" type="text/css" href="admin/css/main.css">
-   <!--===============================================================================================-->
-
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
@@ -37,7 +32,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-   <!-- header-start -->
+   <!-- debut de la nav bar-->
    <header>
        <div class="header-area ">
            <div id="sticky-header" class="main-header-area">
@@ -93,9 +88,9 @@
            </div>
        </div>
    </header>
- <!-- header-end -->
+   <!-- debut de la nav bar-->
 
- <!-- breadcam_area_start -->
+ <!-- Code permettant de mettre du texte sur l'image de la nav bar -->
  <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
     <div class="breadcam_inner">
        <div class="breadcam_text">
@@ -104,8 +99,9 @@
        </div>
     </div>
  </div>
- <!-- breadcam_area_end -->
+ <!-- fin -->
 
+ <!-- Présentation de l'ensemble des résevation sous forme de tableau -->
        <table class="table">
           <thead>
              <tr>
@@ -138,8 +134,8 @@
       ?>
  </table>
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
+    <!-- ================ Bouton déconnexion ================= -->
+    <class="contact-section">
             <div class="container">
                 <div class="d-none d-sm-block mb-5 pb-4">
 
@@ -150,10 +146,11 @@
 
                 </div>
                             </div>
-        </section>
+        </class>
 
-    <!-- ================ contact section end ================= -->
+    <!-- ================fin ================= -->
 
+    <!-- Début flooter-->
     <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
@@ -246,9 +243,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer-end -->
+    <!-- Fin du footer -->
 
-        <!-- JS here -->
+        <!-- Lien JS -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -266,24 +263,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.slicknav.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
-
-        <!--contact js-->
         <script src="js/contact.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/mail-script.js"></script>
+        <!--Fin du js-->
 
-        <script src="admin/js/main.js"></script>
-        <!--===============================================================================================-->
-         <script src="admin/vendor/jquery/jquery-3.2.1.min.js"></script>
-        <!--===============================================================================================-->
-         <script src="admin/vendor/bootstrap/js/popper.js"></script>
-         <script src="admin/vendor/bootstrap/js/bootstrap.min.js"></script>
-        <!--===============================================================================================-->
-         <script src="admin/vendor/select2/select2.min.js"></script>
-        <!--===============================================================================================-->
-         <script src="admin/js/main.js"></script>
 
     </body>
 

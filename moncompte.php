@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!--logo -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
+
+    <!-- Liens pour le style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- fin -->
 </head>
 
 <body>
@@ -32,7 +32,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-   <!-- header-start -->
+        <!-- debut de la nav bar-->
    <header>
        <div class="header-area ">
            <div id="sticky-header" class="main-header-area">
@@ -91,9 +91,9 @@
            </div>
        </div>
    </header>
- <!-- header-end -->
+   <!-- fin de la nav bar-->
 
- <!-- breadcam_area_start -->
+   <!-- Code permettant de mettre du texte sur l'image de la nav bar -->
  <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
     <div class="breadcam_inner">
        <div class="breadcam_text">
@@ -102,9 +102,9 @@
        </div>
     </div>
  </div>
- <!-- breadcam_area_end -->
+ <!-- fin -->
 
-
+ <!-- Présentation de l'ensemble des résevation sous forme de tableau -->
  <table class="table">
     <thead>
        <tr>
@@ -142,8 +142,8 @@ echo '<td>'.$value['nom'].'</td>';
 
 
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
+    <!-- ================ Bouton deconnexion================= -->
+    <class="contact-section">
             <div class="container">
                 <div class="d-none d-sm-block mb-5 pb-4">
 
@@ -153,11 +153,25 @@ echo '<td>'.$value['nom'].'</td>';
 
                 </div>
            </div>
-    </section>
-    <!-- ================ contact section end ================= -->
+    </class>
+    <!-- ================ Fin  ================= -->
 
+    <!-- ================ Bouton Modifier================= -->
 
+    <class="contact-section">
+            <div class="container">
+                <div class="d-none d-sm-block mb-5 pb-4">
 
+                  <form action="modifier.php" method="POST">
+                  <center><input type="submit" class="button button-contactForm boxed-btn" value='Modifier'></center>
+                  </form>
+
+                </div>
+           </div>
+    </class>
+    <!-- ================ Fin ================= -->
+
+    <!-- Début du footer -->
     <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
@@ -250,9 +264,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer-end -->
+    <!-- Fin du footer -->
 
-        <!-- JS here -->
+        <!-- Liens du JS -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -270,16 +284,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.slicknav.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
-
-        <!--contact js-->
         <script src="js/contact.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/mail-script.js"></script>
-
         <script src="js/main.js"></script>
-
+  <!--contact js-->
     </body>
 
     </html>

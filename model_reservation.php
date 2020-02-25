@@ -1,5 +1,5 @@
 <?php
-class reservation {
+class reservation { // classe Réservation reprenant les information du manager, formulaire, model//
   private $_nom;
   private $_email;
   private $_heure;
@@ -16,37 +16,37 @@ class reservation {
 }
 
 public function setnom($nom){
-  if(empty($nom)){
+  if(empty($nom)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_nom = $nom;
 }
 public function settelephone($email){
-  if(empty($email)){
+  if(empty($email)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_email = $email;
 }
 public function setheure($heure){
-  if(empty($heure)){
+  if(empty($heure)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_heure = $heure;
 }
 public function setmenu($menu){
-  if(empty($menu)){
+  if(empty($menu)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_menu = $menu;
 }
 public function setpersonne($personne){
-  if(empty($personne)){
+  if(empty($personne)){ // si la valeur saisie est vide afficher une erreur //
     trigger_error('la variable doit etre un caractere');
-    return;
+    return; // retourne le résultat //
   }
   $this->_personne = $personne;
 }

@@ -1,9 +1,10 @@
 <?php
+// envoie les données vers les page suiavntes //
 require 'model_inscription.php';
 require 'traitement_inscription.php';
 class Manager{
 public function inscription($donnee){
-
+//Enregistre les données dans la BDD et rédireige en fonction du résultat //
       $bdd=new PDO('mysql:host=localhost;dbname=restauration;charset=utf8', 'root', '');
     $req=$bdd->prepare('INSERT into inscription (nom, email, mdp, telephone, role) VALUES(:nom, :email, :mdp, :telephone, :role)');
     $req->execute(array('nom'=>$donnee->getnom(), 'email'=>$donnee->getemail(), 'mdp'=>md5($donnee->getmdp()), 'telephone'=>$donnee->gettelephone(), 'role'=>'user'));

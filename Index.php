@@ -9,11 +9,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- logo -->
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
-    <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
+    <!-- Style de la page -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -24,8 +23,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- fin du style -->
 </head>
 
 <body>
@@ -33,7 +31,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-    <!-- header-start -->
+    <!-- Début de la nav bar-->
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -93,9 +91,9 @@
             </div>
         </div>
     </header>
-    <!-- header-end -->
+    <!-- fin de la nav bar -->
 
-    <!-- breadcam_area_start -->
+    <!--code permettant de mettre en place du texte sur l'image de la nav bar-->
     <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
         <div class="breadcam_inner">
             <div class="breadcam_text">
@@ -106,7 +104,7 @@
     </div>
     <!-- breadcam_area_end -->
 
-    <!-- order_area_start -->
+    <!-- Présentation des meilleur plats + description des plats  -->
     <div class="order_area">
         <div class="container">
                 <div class="row">
@@ -127,12 +125,12 @@
                             </div>
                         </div>
                         <div class="order_info">
-                            <h3><a href="#">Salade des milles legumes spécial vegétarien</a></h3>
+                            <h3><a href="Reservation.php">Salade des milles legumes spécial vegétarien</a></h3>
                             <p>Olives  |   Tomate <br>
                                     Figues   |   Mache <br>
                                     Fromage blanc
                             </p>
-                            <a href="#" class="boxed_btn">Reserver maintenant !</a>
+                            <a href="Reservation.php" class="boxed_btn">Reserver maintenant !</a>
                         </div>
                     </div>
                 </div>
@@ -145,12 +143,12 @@
                             </div>
                         </div>
                         <div class="order_info">
-                            <h3><a href="#">Viande cuite aux feux de bois accompagné de tomate garnis</a></h3>
+                            <h3><a href="Reservation.php">Viande cuite aux feux de bois accompagné de tomate garnis</a></h3>
                             <p>Filet de poulet   |   Tomate <br>
                                     Viande haché   |   Legumes assaisonée <br>
                                     Sauce au poivre
                             </p>
-                            <a href="#" class="boxed_btn">Reserver maintenant !</a>
+                            <a href="Reservation.php" class="boxed_btn">Reserver maintenant !</a>
                         </div>
                     </div>
                 </div>
@@ -163,12 +161,12 @@
                             </div>
                         </div>
                         <div class="order_info">
-                            <h3><a href="#">Galette de riz accompagné de poulet fried</a></h3>
+                            <h3><a href="Reservation.php">Galette de riz accompagné de poulet fried</a></h3>
                             <p>Poulet friee   |   Galette de riz <br>
                                     Pomme de terre   |   Salade <br>
                                     Sauce aigre doux
                             </p>
-                            <a href="#" class="boxed_btn">Reserver maintenant !</a>
+                            <a href="Reservation.php" class="boxed_btn">Reserver maintenant !</a>
                         </div>
                     </div>
                 </div>
@@ -181,12 +179,12 @@
                             </div>
                         </div>
                         <div class="order_info">
-                            <h3><a href="#">Saumon fumée avec ces légumes bouilis</a></h3>
+                            <h3><a href="Reservation.php">Saumon fumée avec ces légumes bouilis</a></h3>
                             <p>Saumé fuméé   |   Legumes du soleil<br>
                                     carotte   |   Legumes boulils <br>
                                     Sauce hollandaise
                             </p>
-                            <a href="#" class="boxed_btn">Reserver maintenant!</a>
+                            <a href="Reservation.php" class="boxed_btn">Reserver maintenant!</a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +202,7 @@
                                     Coulis de fraise   |    <br>
                                       Acompagné de glace a la vanille
                             </p>
-                            <a href="#" class="boxed_btn">Reserver maintenant!</a>
+                            <a href="Reservation.php" class="boxed_btn">Reserver maintenant!</a>
                         </div>
                     </div>
                 </div>
@@ -217,21 +215,21 @@
                             </div>
                         </div>
                         <div class="order_info">
-                            <h3><a href="#">Pain Italien frais servis avec chaque plat</a></h3>
+                            <h3><a href="Reservation.php">Pain Italien frais servis avec chaque plat</a></h3>
                             <p>Pain Italien   |   Graines de lin brun <br>
                                     Farine de blé complet   |   Graines de courges <br>
                                     Graines de tournesol
                             </p>
-                            <a href="#" class="boxed_btn">Reserver maintenant!</a>
+                            <a href="Reservation.php" class="boxed_btn">Reserver maintenant!</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- order_area_end -->
+    <!-- Fin -->
 
-    <!-- footer-start -->
+    <!-- Début du footer -->
     <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
@@ -324,10 +322,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer-end -->
+    <!-- Fin du footer -->
 
 
-    <!-- JS here -->
+    <!-- Début du JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -346,7 +344,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
 
-    <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
@@ -354,7 +351,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
-
+ <!-- Fin-->
 </body>
 
 </html>
