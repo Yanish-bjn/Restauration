@@ -1,7 +1,7 @@
 <?php
 // envoie les données vers les page suiavntes //
-require 'model_inscription.php';
-require 'traitement_inscription.php';
+require '../Model/model_inscription.php';
+require '../Traitement/traitement_inscription.php';
 class Manager{
 public function inscription($donnee){
 //Enregistre les données dans la BDD et rédireige en fonction du résultat //

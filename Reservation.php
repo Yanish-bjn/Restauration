@@ -23,7 +23,7 @@
                     <img class="booking-img" src="Reservation/images/form-img.jpg" alt="Booking Image">
                 </div>
                 <div class="booking-form">
-                    <form id="booking-form" action='manager_reservation.php' method='POST'>
+                    <form id="booking-form" action='Manager/manager_reservation.php' method='POST'>
                         <h2>Reserver une table !</h2>
                         <div class="form-group form-input">
                             <input type="text" name="nom" id="name" value="" required/>

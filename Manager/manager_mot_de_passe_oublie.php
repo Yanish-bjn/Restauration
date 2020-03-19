@@ -14,7 +14,7 @@ var_dump($_GET);
 	));
 
   if ($a ==true){
-    header("location: connexion.php");
+    header("../location: connexion.php");
   }
   else{
     echo 'Erreur';

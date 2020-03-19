@@ -16,7 +16,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 // Load Composer's autoloader
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
 try {
@@ -39,7 +39,7 @@ if(isset($connexion)){
     $mail->Body    = "<a href='http://localhost/Restauration/récuperation_mdp.php'>Réinitialiser mot de passe</a>";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail client';
     $mail->send();
-    header("location: index.php");
+    header("location: ../index.php");
 
 }
 }

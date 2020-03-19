@@ -24,7 +24,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('Connexion/images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form" action="manager_connexion.php" method="POST">
+				<form class="login100-form validate-form" action="Manager/manager_connexion.php" method="POST">
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-landscape"></i>
 					</span>
@@ -33,7 +33,7 @@
 						Connexion
 					</span>
 					<!-- fin -->
-					
+
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>

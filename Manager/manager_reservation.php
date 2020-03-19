@@ -2,13 +2,13 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/phpmailer/phpmailer/src/Exception.php';
-require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require 'vendor/phpmailer/phpmailer/src/SMTP.php';
-require 'vendor/autoload.php';
+require '../vendor/phpmailer/phpmailer/src/Exception.php';
+require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require '../vendor/phpmailer/phpmailer/src/SMTP.php';
+require '../vendor/autoload.php';
 
-require 'model_reservation.php';
-require 'traitement_reservation.php';
+require '../Model/model_reservation.php';
+require '../Traitement/traitement_reservation.php';
 class Manager{
 public function reservation($donnee){
 
@@ -17,10 +17,10 @@ public function reservation($donnee){
     $req->execute(array('nom'=>$donnee->getnom(), 'email'=>$donnee->getemail(), 'heure'=>$donnee->getheure(), 'menu'=>$donnee->getmenu(), 'personne'=>$donnee->getpersonne()));
     $req->fetch();
     if ($req == true){
-      header("location: index.php");
+      header("location: ../index.php");
     }
     else{
-      header("location: reservation.php");
+      header("location: ../reservation.php");
     }
 
           }
@@ -41,7 +41,7 @@ public function Mail($donnee){
           if(!$mail->Send()) {
              echo "Mailer Error: " . $donnee->getemail()->ErrorInfo;
           } else {
-             header("location: index.php");
+             header("../location: index.php");
           }
 }
 }

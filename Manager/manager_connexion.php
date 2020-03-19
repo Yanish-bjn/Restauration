@@ -1,7 +1,7 @@
 <?php
 session_start(); //Récupere les données de la session //
-require 'model_connexion.php'; // récupére les données de la page //
-require 'traitement_connexion.php'; //récupére les données de la page //
+require '../Model/model_connexion.php'; // récupére les données de la page //
+require '../Traitement/traitement_connexion.php'; //récupére les données de la page //
 class Manager{
 public function connexion($donnee){ //function connexion //
 
@@ -13,10 +13,10 @@ public function connexion($donnee){ //function connexion //
   if ($a == true){ // début du si //
     $_SESSION['email'] = $donnee->getemail();
     $_SESSION['role'] = $a['role'];
-    header("location: index.php"); // redirection vers ... //
+    header("location: ../index.php"); // redirection vers ... //
   }// fin  du si //
   else{ //début du si non //
-    header("location: connexion.php"); // redirection vers la page .... //
+    header("location: ../connexion.php"); // redirection vers la page .... //
   }// fin du si non //
     //header("Location: index.php");
     //$_SESSION['email']=$this->_email;

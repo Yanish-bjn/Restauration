@@ -22,7 +22,7 @@
                 <div class="signup-content">
                     <div class="signup-form">
                         <h2 class="form-title">Modifier ces donnée</h2>
-                        <form method="POST" action="manager_modifier.php" class="register-form" id="register-form">
+                        <form method="POST" action="Manager/manager_modifier.php" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <input type="text" name="nom" id="name" placeholder="Votre nom"/>

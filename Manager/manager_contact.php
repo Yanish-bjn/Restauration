@@ -3,15 +3,15 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 //Recuperation de données des page suivantes //
-require 'vendor/phpmailer/phpmailer/src/Exception.php';
-require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require 'vendor/phpmailer/phpmailer/src/SMTP.php';
-require 'vendor/autoload.php';
+require '../vendor/phpmailer/phpmailer/src/Exception.php';
+require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require '../vendor/phpmailer/phpmailer/src/SMTP.php';
+require '../vendor/autoload.php';
 //
 
 // envoie les données vers les page suiavntes //
-require 'model_contact.php';
-require 'traitement_contact.php';
+require '../Model/model_contact.php';
+require '../Traitement/traitement_contact.php';
 class Manager{
 public function contact($donnee){
 //Enregistre les données dans la BDD et rédireige en fonction du résultat //
@@ -19,10 +19,10 @@ public function contact($donnee){
     $req=$bdd->prepare('INSERT into contact (nom, email, sujet, message) VALUES(:nom, :email, :sujet, :message)');
     $req->execute(array('nom'=>$donnee->getnom(), 'email'=>$donnee->getemail(), 'sujet'=>$donnee->getsujet(), 'message'=>$donnee->getmessage()));
     if ($req ==true){
-      header("location: index.php");
+      header("../location: index.php");
     }
     else{
-      header("location: contact.php");
+      header("../location: contact.php");
     }
 
           }
@@ -45,7 +45,7 @@ $mail->addAddress($donnee->getemail(), 'Contact');     // Add a recipient //Reci
 if(!$mail->Send()) {
    echo "Mailer Error: " . $donnee->getemail()->ErrorInfo;
 } else {
-   header("location: index.php");
+   header("location: ../index.php");
 }
 
 }

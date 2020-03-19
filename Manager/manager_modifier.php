@@ -1,8 +1,8 @@
 <?php
 session_start();
 // envoie les données vers les page suiavntes //
-require 'model_modifier.php';
-require 'traitement_modifier.php';
+require '../Model/model_modifier.php';
+require '../Traitement/traitement_modifier.php';
 class Manager{
 public function modifier($donnee){
 //Enregistre les données dans la BDD et rédireige en fonction du résultat //
@@ -10,10 +10,10 @@ public function modifier($donnee){
     $req=$bdd->prepare('UPDATE inscription SET nom = :nom, mdp = :mdp, email = :email, telephone = :telephone, WHERE id = :id');
     $req->execute(array('nom'=>$donnee->getnom(), 'mdp'=>md5($donnee->getmdp()), 'email'=>$donnee->getemail(), 'telephone'=>$donnee->gettelephone(), 'id'=>'id'));
     if ($req == true){
-      header("location: moncompte.php");
+      header("location: ../moncompte.php");
     }
     else{
-      header("location: modifier.php");
+      header("location: ../modifier.php");
     }
 
           }

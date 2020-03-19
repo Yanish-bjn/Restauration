@@ -149,7 +149,7 @@
         </script>
         <!-- Début du formulaire de contact -->
                 </div>
-                <form action='manager_contact.php' method='POST'>
+                <form action='Manager/manager_contact.php' method='POST'>
                 <div class="row">
                     <div class="col-12">
                         <h2 class="contact-title">Contacter nous !</h2>
